@@ -42,13 +42,6 @@ This repository contains multiple Spring Boot projects organized by folders. Eac
 
 ---
 
-
----
-
-## 🛠 Tech Stack
-
-## 🛠 Tech Stack
-
 ## 🛠 Tech Stack
 
 - ![Java](https://img.shields.io/badge/Java-17+-red?logo=java)
