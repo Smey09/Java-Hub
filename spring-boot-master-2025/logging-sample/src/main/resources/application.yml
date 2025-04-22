@@ -1,0 +1,18 @@
+logging:
+  config: classpath:log4j2-spring.xml
+  #pattern:
+  #  correlation: "[${spring.application.name:},%X{traceId:-},%X{spanId:-}] "
+  #include-application-name: false
+management:
+  observations:
+    http:
+      server:
+        requests:
+          write-trace-header: true
+  tracing:
+    enabled: true
+    sampling:
+      probability: 1.0
+spring:
+  application:
+    name: logging-sample
